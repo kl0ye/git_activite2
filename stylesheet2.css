@@ -1,0 +1,219 @@
+/* Police de la page */
+@font-face {
+    font-family: 'Roboto-thin';
+    src: url('Roboto-thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Corp de la page*/
+
+body{
+	font-family: 'Roboto-thin','Trebuchet MS';
+	background-color: #cccccc;
+}
+
+/* En-tête de la page */
+
+header{
+	display: block;
+	background-color: #333333;
+	color: white;
+	width: 100%;
+	box-shadow: 0 1px 2px #6c6969;
+	position: fixed;
+	z-index: 5;
+}
+h4 {
+	font-weight: bold;
+	padding-top: 5px;
+	color: white;
+	text-transform: uppercase;
+	text-align: left;
+}
+a[title="Lab"]{
+	margin-top: 5px;
+	margin-left: 40%;
+}
+a[title="Clock"]{
+	margin-top: 5px;
+	margin-left: 7%;
+}
+a[title="Camera"]{
+	margin-top: 5px;
+	margin-left: 7%;
+}
+a[title="Chat"]{
+	margin-top: 5px;
+	margin-left: 7%;
+}
+img[title="Lab"]{
+	height: 25px;
+}
+img[title="Clock"]{
+	height: 25px;
+}
+img[title="Camera"]{
+	height: 25px;
+}
+img[title="Chat"]{
+	height: 25px;
+}
+
+/* Bloc 1 de la page - Photo */
+
+.bloc1 {
+	display: flex;
+	height: 450px;
+	justify-content: space-between;
+	align-items: center;
+}
+a[title]:hover{
+	color: #bfc1c4;
+	opacity: 0.4;
+	text-decoration: none;
+}
+a[class="<"] {
+	color: #fff;
+	opacity: 0.4;
+	font-size: 5em;
+	padding-left: 0;
+	text-decoration: none;
+}
+a[class=">"]{
+	color: #fff;
+	opacity: 0.4;
+	font-size: 5em;
+	padding-right: 0;
+	text-decoration: none;
+}
+#gallery{
+	background: url("image/hangingon.png") no-repeat;
+	background-size: auto;
+	background-position: center;
+	background-color: #cccccc;
+	max-height: 450px;
+}
+
+/* Bloc 2 de la page - Commentaire */
+
+#comment{
+	border: 2px solid #ff6666;
+	background-color: #ff6666;
+}
+#photoprofil{
+	margin: auto;
+	max-height: 200px;
+    border: 10px solid #ff9999;
+	border-radius: 100%;
+	z-index: 1;
+}
+img + p{
+	text-align: center;
+	margin-top: 2%;
+	color: #ad1414;
+	font-size: 1.2em;
+	font-family: "Trebuchet MS";
+}
+.sign{
+	font-size: 1em;
+	color: #c24747;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Bas de page */
+
+footer{
+	background-color: #333333;
+	color: #666666;
+	text-align: center;
+	padding-top: 3%;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-bottom: 2%;
+}
+.outro{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#bouton{
+	display: block;
+	border: 2px solid #ff6666;
+	background-color: #ff6666;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	text-decoration: none;
+	color: #666666;
+}
+
+/* Conditon bootsrap */
+
+.row {
+  margin-right: -15%;
+  margin-left: -15%
+}
+.container-fluid{
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+[class*="col-"]{
+	text-align: center;
+}
+.col-lg-offset-2{
+	margin-left: 17%;
+}
+.col-lg-offset-4{
+	margin-left: 33.33%,
+}
+.col-lg-5{
+	padding-top: 5px;
+	align-items: left;
+}
+
+/* Responsive */
+
+@media all and (max-width: 1020px) {
+	.col-lg-offset-2{
+	margin-left: auto;
+	}
+}
+@media all and (min-width: 992px) and (max-width: 1020px) {
+	.col-lg-offset-2{
+	margin-left: 17%;
+	}
+}
+@media all and (max-width: 992px){
+	a[title="Lab"]{
+		margin-left: auto;
+	}
+	h4{
+		text-align: center;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+	img[title="Lab"]{
+		height: 15px;
+	}
+	img[title="Clock"]{
+		height: 15px;
+	}
+	img[title="Camera"]{
+		height: 15px;
+	}
+	img[title="Chat"]{
+		height: 15px;
+	}
+	.col-lg-5{
+		padding-top: 0;
+	}
+	.col-lg-7{
+		padding:auto;
+	}
+}
