@@ -1,12 +1,16 @@
-Git & GitHub - Partie 2 Activité
+Intégrer une maquette en HTML et CSS
 
 
-Cet exercice a pour objectif de mettre en pratique les notions acquises dans les deux premières parties du cours sur Git et Github.
+Dans cet exercice, vous vous entraînerez à gerer un projet avec un client dans sa totalité, c'est-à-dire de la rédaction du cahier des charges à la livraison finale.
 
-Il faut créer un repository Git simple contenant :
+Commencez par identifier votre client. Qui est-il ? Où est-il ? Que cherche-il ? Ecrivez dans un document quel est son projet et quelles sont ses attentes.
 
-Un fichier nommé "README.txt" qui présente le projet;
-Au moins 2 autres fichiers de votre choix (ils peuvent contenir des scripts de code, du texte sur un projet personnel...);
-Au moins 4 commits distincts montrant l’ajout puis la modification de certains fichiers.
-Prêtez attention à la qualité de vos messages de commit et essayez d’être précis. 
-Par exemple, évitez des commentaires comme “commit 1”, “commit 2” etc. qui n'expliquent pas les modifications que vous avez effectuées
+Ensuite, trouvez une maquette qui correspond à ces besoins. Voici quelques sites utiles qui vous aideront à trouver des maquettes (mais vous pouvez utiliser le site de votre choix) :
+
+Creative Market, ThemeForest, Blazrobar, Breebiesbug, UI8.net
+
+Idéalement, vous trouverez un document PSD et vous utiliserez Photoshop pour travailler les visuels et en extraire les images. Mais vous êtes libre d'utiliser le logiciel de votre choix pour mesurer la largeur, la hauteur et l'espacement des éléments de votre visuel. À partir de cette maquette, créez une structure de base en HTML et utilisez la grille Bootstrap pour organiser les éléments en colonnes. Notez bien que vous devez utiliser Bootstrap !
+
+Ajoutez du CSS si besoin pour personnaliser l'apparence et aller au-delà de ce que vous permet Bootstrap. Vous pouvez changer les couleurs, les polices (utilisez une police web !), le dimensionnement, et plus encore. Essayez de vous rapprocher le plus possible de la maquette, même si nous comprendrons si la ressemblance n'est pas parfaite.
+
+Vous devez donc partir d'un (ou plusieurs) documents au format PSD pour arriver à une page web finale.
