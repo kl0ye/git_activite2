@@ -14,3 +14,7 @@ Idéalement, vous trouverez un document PSD et vous utiliserez Photoshop pour tr
 Ajoutez du CSS si besoin pour personnaliser l'apparence et aller au-delà de ce que vous permet Bootstrap. Vous pouvez changer les couleurs, les polices (utilisez une police web !), le dimensionnement, et plus encore. Essayez de vous rapprocher le plus possible de la maquette, même si nous comprendrons si la ressemblance n'est pas parfaite.
 
 Vous devez donc partir d'un (ou plusieurs) documents au format PSD pour arriver à une page web finale.
+
+
+Exercice OpenClassrooms  
+Modèle de maquette trouvé sur : https://freebiesbug.com/psd-freebies/lab-free-portfolio-template/
